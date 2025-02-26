@@ -5,3 +5,5 @@ export const userCacheKey = (userId: string) => `users#${userId}`
 export const sessionCacheKey = (sessionId: string) => `sessions#${sessionId}`
 
 export const itemCacheKey = (itemId: string) => `items#${itemId}`
+
+export const userLikesKey = (userId:string)=> `users:likes#${userId}`
